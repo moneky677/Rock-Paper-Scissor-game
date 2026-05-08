@@ -1,6 +1,6 @@
 import random
 def code():
-  print('Welcome to rock paper scissor game.\nPlease press run to restart.')
+  print('Welcome to rock paper scissor game.')
   op1 = 'rock' 
   op2 = 'paper'
   op3 = 'scissor'
@@ -39,7 +39,7 @@ def code():
   outcome()
   
 import random
-print('Welcome to rock paper scissor game.\nPlease press run to restart.')
+print('Welcome to rock paper scissor game.')
 op1 = 'rock' 
 op2 = 'paper'
 op3 = 'scissor'
