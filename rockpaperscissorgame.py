@@ -24,12 +24,10 @@ def code():
         print("\nYOU PICKED: " + choice+"\n")
         print("\nBOT PICKED: " + bot)
         print("You win!")
-        code()
     elif choice == op1 and bot == op2 or choice == op2 and bot == op3 or choice == op3 and bot == op1:
         print("YOU PICKED: " + choice+"\n")
         print("\nBOT PICKED: " + bot)
         print("LMAO, YOU LOST TO A BOT !? LITTERALLY HOW? YOU SUCK AT THE OLDEST GAME IN THE BOOK!!")
-        code()
     elif choice == bot:
       print("YOU PICKED: " + choice+"\n")
       print("BOT PICKED: " + bot)
