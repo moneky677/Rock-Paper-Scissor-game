@@ -8,7 +8,7 @@ print("Welcome to Rock Paper Scissor Game!")
 def code():
   while True:
     bot = random.choice(botoption)
-    option = input("\nPlease enter your choice.\n\n press 1 for rock\n\n press 2 for paper\n\n press 3 for scissor\n\n press 4 to exit...\n\nEnter your choice: \n")
+    option = input("\nPlease enter your choice.\n\n press 1 for rock\n\n press 2 for paper\n\n press 3 for scissor\n\nEnter your choice: \n")
     if not option.isdigit():
       print("Not an option :(")
       code()
